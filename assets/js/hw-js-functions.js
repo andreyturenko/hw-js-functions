@@ -60,7 +60,7 @@ console.log("Is a triangle possible? :>> ", isTriangle(12, 10, 12));
  * @param {number} c - Third side of the triangle
  * @returns {(number|string)} Calculated area
  */
-let areaTriangle = function (a, b, c) {
+const areaTriangle = function (a, b, c) {
   if (a === 0 || b === 0 || c === 0) {
     return "Incorrect parameters";
   } else {
